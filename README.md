@@ -11,7 +11,7 @@ A hands-on Active Directory home lab built to simulate real-world Windows domain
 
 ---
 
-## Lab Architecture
+## Network Architecture
 
 | Machine | OS | IP | Role |
 |---|---|---|---|
@@ -26,6 +26,22 @@ A hands-on Active Directory home lab built to simulate real-world Windows domain
 | Domain Controller | DC01 |
 | Organisational Unit | SOC-Lab-Users |
 | Domain Admins | Administrator, adminuser |
+
+---
+
+## Screenshots
+
+### Server Manager Dashboard
+![Server Manager](screenshots/01-server-manager.png)
+
+### Active Directory Users and Computers
+![AD Users](screenshots/02-ad-users.png)
+
+### Group Policy Management
+![GPO](screenshots/03-gpo.png)
+
+### Domain Users via PowerShell
+![Users](screenshots/04-users.png)
 
 ---
 
